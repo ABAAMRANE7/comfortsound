@@ -333,7 +333,7 @@ pre.w-code-block code {
   padding: 0;
   list-style-type: disc;
   transition: none;
-  display: block;
+  display: none;
   position: static;
   top: auto;
   bottom: auto;
@@ -3407,7 +3407,9 @@ figure {
 
 .header-section.transparent-header.about-page {
   position: absolute;
+display: none;
 }
+
 
 .header-section.header-style-two {
   padding-top: 0;
@@ -3490,8 +3492,8 @@ figure {
 
 .hero-wrapper {
   align-items: center;
-  min-height: 700px;
-  padding-top: 80px;
+  min-height: 100px;
+  padding-top: 30px;
   display: flex;
 }
 
@@ -4887,7 +4889,9 @@ figure {
 
 .padding-top-140 {
   padding-top: 100px;
+    display: none;
 }
+
 
 .feature-categories-title-block {
   justify-content: space-between;
